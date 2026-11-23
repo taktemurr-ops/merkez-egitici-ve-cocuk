@@ -32,6 +32,11 @@ void main() {
       'oyun-dikkat-gelistirme',
       'oyun-cocuk-labirenti-ve-yapbozu',
       'oyun-cocuklar-icin-blok-kodlama',
+      'oyun-zit-kavramlar',
+      'oyun-sag-sol-yonler',
+      'oyun-duygular',
+      'oyun-saglikli-aliskanliklar',
+      'oyun-geri-donusum',
     ]);
     final all = hubConfig.allGames.map((g) => g.gameId).toList();
     expect(all.length, ids.length + 0);

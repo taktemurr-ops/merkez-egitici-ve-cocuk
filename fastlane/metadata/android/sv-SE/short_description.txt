@@ -1,1 +1,1 @@
-27 lärospel: ABC, siffror, klockan, målning, kartor, kod och piano!
+32 lärospel: ABC, siffror, klockan, målning, kartor, kod och piano!

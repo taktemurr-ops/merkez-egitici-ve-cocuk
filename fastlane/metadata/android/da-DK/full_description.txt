@@ -1,10 +1,11 @@
-Læringsspil for Børn samler 27 læringsspil: alfabetet, tegne bogstaver og stavelser; tal, ur, plus, tabeller, brøker og penge; figurer, farvelægning og klaver; dyr, årstider, planeter, flag, kortpuslespil og trafiksikkerhed; fokus, labyrinter og blokprogrammering. Vejledning med billeder, også for dem, der ikke kan læse endnu.
+Læringsspil for Børn samler 32 læringsspil: alfabetet, tegne bogstaver og stavelser; tal, ur, plus, tabeller, brøker og penge; figurer, farvelægning og klaver; dyr, årstider, planeter, flag, kortpuslespil og trafiksikkerhed; fokus, labyrinter og blokprogrammering. Vejledning med billeder, også for dem, der ikke kan læse endnu.
 
 • Bogstaver og læsning: Lær Alfabetet, Tegn Bogstaver, Læs Stavelser, Engelske Ordkort
 • Tal og matematik: Lær Tal, Plus og Minus, Tabeller, Regneløb, Brøker, Tæl Penge, Lær Klokken
 • Former, kunst og musik: Former og Farver, Geometriske Figurer, Malebog, Mal efter Tal, Børneklaver, Lær Noder
 • Opdag verden: Dyr og Lyde, Årstider og Vejr, Solsystemet, Verdens Flag, Hovedstæder og Kort, Puslespil: Tyrkiets Kort, Trafiksikkerhed
-• Tænk og find: Find den Anderledes, Labyrinter og Puslespil, Blokprogrammering
+• Tænk og find: Find den Anderledes, Labyrinter og Puslespil, Blokprogrammering, Modsætninger, Venstre, Højre og Hvor
+• Mig og min verden: Følelser, Sunde Vaner, Affaldssortering
 
 Højdepunkter
 • Sværhedsgraden tilpasser sig: færre valg, når det er svært, nye trin efter hver succes.

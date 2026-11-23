@@ -123,6 +123,26 @@ dependencies:
     git:
       url: https://github.com/taktemurr-ops/oyun-cocuklar-icin-blok-kodlama
       ref: 146ddd6a986bb9bca69a29357c791d17419862b9
+  oyun_zit_kavramlar:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-zit-kavramlar
+      ref: main
+  oyun_sag_sol_yonler:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-sag-sol-yonler
+      ref: main
+  oyun_duygular:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-duygular
+      ref: main
+  oyun_saglikli_aliskanliklar:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-saglikli-aliskanliklar
+      ref: main
+  oyun_geri_donusum:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-geri-donusum
+      ref: main
   flutter_localizations:
     sdk: flutter
   flutter_riverpod: ^2.6.1
@@ -140,7 +160,7 @@ dependency_overrides:
   egitici_motoru:
     git:
       url: https://github.com/taktemurr-ops/egitici-motoru
-      ref: cbb34915b42eb16125505c7349a37efb8fbc9bea
+      ref: main
 
 dev_dependencies:
   flutter_test:

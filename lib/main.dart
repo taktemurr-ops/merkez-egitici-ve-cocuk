@@ -8,7 +8,9 @@ import 'package:oyun_cocuk_labirenti_ve_yapbozu/oyun_cocuk_labirenti_ve_yapbozu.
 import 'package:oyun_cocuk_piyanosu/oyun_cocuk_piyanosu.dart';
 import 'package:oyun_cocuklar_icin_blok_kodlama/oyun_cocuklar_icin_blok_kodlama.dart';
 import 'package:oyun_dikkat_gelistirme/oyun_dikkat_gelistirme.dart';
+import 'package:oyun_duygular/oyun_duygular.dart';
 import 'package:oyun_geometri_sekilleri/oyun_geometri_sekilleri.dart';
+import 'package:oyun_geri_donusum/oyun_geri_donusum.dart';
 import 'package:oyun_gunes_sistemi/oyun_gunes_sistemi.dart';
 import 'package:oyun_harf_izleme/oyun_harf_izleme.dart';
 import 'package:oyun_hayvanlar_ve_sesleri/oyun_hayvanlar_ve_sesleri.dart';
@@ -20,12 +22,15 @@ import 'package:oyun_mevsimler_ve_hava/oyun_mevsimler_ve_hava.dart';
 import 'package:oyun_notalarla_tanisma/oyun_notalarla_tanisma.dart';
 import 'package:oyun_para_sayma/oyun_para_sayma.dart';
 import 'package:oyun_saat_ogrenme/oyun_saat_ogrenme.dart';
+import 'package:oyun_sag_sol_yonler/oyun_sag_sol_yonler.dart';
+import 'package:oyun_saglikli_aliskanliklar/oyun_saglikli_aliskanliklar.dart';
 import 'package:oyun_sayi_ogrenme/oyun_sayi_ogrenme.dart';
 import 'package:oyun_sayiyla_boyama/oyun_sayiyla_boyama.dart';
 import 'package:oyun_sekil_ve_renk_esleme/oyun_sekil_ve_renk_esleme.dart';
 import 'package:oyun_toplama_cikarma/oyun_toplama_cikarma.dart';
 import 'package:oyun_trafik_kurallari/oyun_trafik_kurallari.dart';
 import 'package:oyun_turkiye_haritasi_yapbozu/oyun_turkiye_haritasi_yapbozu.dart';
+import 'package:oyun_zit_kavramlar/oyun_zit_kavramlar.dart';
 import 'package:studio_core/app/hub.dart';
 
 /// Eğitici ve Çocuk: harfler, sayılar, sanat, müzik ve dünyayı tanıma
@@ -133,6 +138,11 @@ final hubConfig = HubConfig(
     dikkatConfig,
     labirentYapbozConfig,
     blokKodlamaConfig,
+    zitKavramlarConfig,
+    yonlerConfig,
+    duygularConfig,
+    saglikliConfig,
+    geriDonusumConfig,
   ],
   starters: ['oyun-alfabe-ogrenme', 'oyun-boyama-kitabi', 'oyun-sayi-ogrenme'],
   sections: [
@@ -320,7 +330,44 @@ final hubConfig = HubConfig(
           'Nghĩ và tìm',
           'Mag-isip at maghanap',
         ],
-        ids: ['oyun-dikkat-gelistirme', 'oyun-cocuk-labirenti-ve-yapbozu', 'oyun-cocuklar-icin-blok-kodlama']),
+        ids: ['oyun-dikkat-gelistirme', 'oyun-cocuk-labirenti-ve-yapbozu', 'oyun-cocuklar-icin-blok-kodlama', 'oyun-zit-kavramlar', 'oyun-sag-sol-yonler']),
+    HubSection(
+        title: [
+          'Ben ve çevrem',
+          'Me and my world',
+          'Ich und meine Welt',
+          'Yo y mi mundo',
+          'Moi et mon monde',
+          'أنا وعالمي',
+          'من و دنیای من',
+          'אני והעולם שלי',
+          'میں اور میری دنیا',
+          'Я и мой мир',
+          'Я і мій світ',
+          'Ja i mój świat',
+          'Já a můj svět',
+          'Eu și lumea mea',
+          'Én és a világom',
+          'Εγώ και ο κόσμος μου',
+          'Io e il mio mondo',
+          'Eu e meu mundo',
+          'Ik en mijn wereld',
+          'Jag och min värld',
+          'Mig og min verden',
+          'Meg og min verden',
+          'Minä ja maailmani',
+          'わたしとまわりのせかい',
+          '나와 나의 세상',
+          '我和我的世界',
+          'मैं और मेरी दुनिया',
+          'আমি আর আমার চারপাশ',
+          'Aku dan duniaku',
+          'Saya dan dunia saya',
+          'ฉันและโลกของฉัน',
+          'Em và thế giới quanh em',
+          'Ako at ang aking mundo',
+        ],
+        ids: ['oyun-duygular', 'oyun-saglikli-aliskanliklar', 'oyun-geri-donusum']),
   ],
 );
 
