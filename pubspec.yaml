@@ -1,0 +1,182 @@
+name: merkez_egitici_ve_cocuk
+description: "Eğitici ve Çocuk merkez uygulaması. Offline-first Flutter game for Android, iOS and Web."
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Ortak çekirdek: https://github.com/taktemurr-ops/studio-core
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 921df6392b2121ffd438a286673ef9f10c988273
+  # Merkezdeki oyunlar (her biri kendi deposunda)
+  oyun_alfabe_ogrenme:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-alfabe-ogrenme
+      ref: main
+  oyun_harf_izleme:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-harf-izleme
+      ref: main
+  oyun_hece_okuma:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-hece-okuma
+      ref: main
+  oyun_ingilizce_kelime_kartlari:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-ingilizce-kelime-kartlari
+      ref: main
+  oyun_sayi_ogrenme:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-sayi-ogrenme
+      ref: main
+  oyun_toplama_cikarma:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-toplama-cikarma
+      ref: main
+  oyun_carpim_tablosu_oyunu:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-carpim-tablosu-oyunu
+      ref: main
+  oyun_matematik_yarisi:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-matematik-yarisi
+      ref: main
+  oyun_kesirler:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-kesirler
+      ref: main
+  oyun_para_sayma:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-para-sayma
+      ref: main
+  oyun_saat_ogrenme:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-saat-ogrenme
+      ref: main
+  oyun_sekil_ve_renk_esleme:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-sekil-ve-renk-esleme
+      ref: main
+  oyun_geometri_sekilleri:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-geometri-sekilleri
+      ref: main
+  oyun_boyama_kitabi:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-boyama-kitabi
+      ref: main
+  oyun_sayiyla_boyama:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-sayiyla-boyama
+      ref: main
+  oyun_cocuk_piyanosu:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-cocuk-piyanosu
+      ref: main
+  oyun_notalarla_tanisma:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-notalarla-tanisma
+      ref: main
+  oyun_hayvanlar_ve_sesleri:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-hayvanlar-ve-sesleri
+      ref: main
+  oyun_mevsimler_ve_hava:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-mevsimler-ve-hava
+      ref: main
+  oyun_gunes_sistemi:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-gunes-sistemi
+      ref: main
+  oyun_bayraklar_bilgi_oyunu:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-bayraklar-bilgi-oyunu
+      ref: main
+  oyun_baskentler_ve_harita:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-baskentler-ve-harita
+      ref: main
+  oyun_turkiye_haritasi_yapbozu:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-turkiye-haritasi-yapbozu
+      ref: main
+  oyun_trafik_kurallari:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-trafik-kurallari
+      ref: main
+  oyun_dikkat_gelistirme:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-dikkat-gelistirme
+      ref: main
+  oyun_cocuk_labirenti_ve_yapbozu:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-cocuk-labirenti-ve-yapbozu
+      ref: main
+  oyun_cocuklar_icin_blok_kodlama:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-cocuklar-icin-blok-kodlama
+      ref: main
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  shared_preferences: ^2.3.2
+  audioplayers: ^6.5.0
+  google_mobile_ads: ^9.2.0
+  in_app_purchase: ^3.2.0
+
+dependency_overrides:
+  # Tüm oyunlar aynı çekirdek ve motor sürümlerini kullansın.
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 921df6392b2121ffd438a286673ef9f10c988273
+  egitici_motoru:
+    git:
+      url: https://github.com/taktemurr-ops/egitici-motoru
+      ref: main
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.1
+  flutter_native_splash: ^2.4.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sfx/
+    - assets/config/
+    - assets/branding/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: assets/branding/icon.png
+  adaptive_icon_background: "#1F2A44"
+  adaptive_icon_foreground: assets/branding/icon_foreground.png
+  web:
+    generate: true
+    image_path: assets/branding/icon.png
+    background_color: "#1F2A44"
+    theme_color: "#1F2A44"
+
+flutter_native_splash:
+  color: "#1F2A44"
+  image: assets/branding/splash.png
+  android_12:
+    color: "#1F2A44"
+    image: assets/branding/splash_android12.png
+  web: true
