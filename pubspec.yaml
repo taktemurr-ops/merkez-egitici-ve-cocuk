@@ -126,23 +126,23 @@ dependencies:
   oyun_zit_kavramlar:
     git:
       url: https://github.com/taktemurr-ops/oyun-zit-kavramlar
-      ref: main
+      ref: e3d4438903b73b7898ed652633b5430b6e6c765f
   oyun_sag_sol_yonler:
     git:
       url: https://github.com/taktemurr-ops/oyun-sag-sol-yonler
-      ref: main
+      ref: 531d703e77abdfb8f86932af11bb1c094542e5d8
   oyun_duygular:
     git:
       url: https://github.com/taktemurr-ops/oyun-duygular
-      ref: main
+      ref: 55457ebdfd8e7262f42fef96d23aa86843d64d10
   oyun_saglikli_aliskanliklar:
     git:
       url: https://github.com/taktemurr-ops/oyun-saglikli-aliskanliklar
-      ref: main
+      ref: 6bae665262ce94d23ee38bd4ebd29feef99db8ad
   oyun_geri_donusum:
     git:
       url: https://github.com/taktemurr-ops/oyun-geri-donusum
-      ref: main
+      ref: cfd872fd17150b1a244274f9ac227337712e5a35
   flutter_localizations:
     sdk: flutter
   flutter_riverpod: ^2.6.1
@@ -160,7 +160,7 @@ dependency_overrides:
   egitici_motoru:
     git:
       url: https://github.com/taktemurr-ops/egitici-motoru
-      ref: main
+      ref: 21df954245a68466f17b97f95b42a139a834a807
 
 dev_dependencies:
   flutter_test:
