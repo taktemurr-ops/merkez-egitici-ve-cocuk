@@ -1,1 +1,1 @@
-32 permainan: huruf, nombor, jam, mewarna, peta, kod dan piano!
+36 permainan: huruf, nombor, jam, mewarna, peta, kod dan piano!

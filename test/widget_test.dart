@@ -29,6 +29,8 @@ void main() {
       'oyun-baskentler-ve-harita',
       'oyun-turkiye-haritasi-yapbozu',
       'oyun-trafik-kurallari',
+      'oyun-dinozorlar',
+      'oyun-meyve-sebze',
       'oyun-dikkat-gelistirme',
       'oyun-cocuk-labirenti-ve-yapbozu',
       'oyun-cocuklar-icin-blok-kodlama',
@@ -37,6 +39,8 @@ void main() {
       'oyun-duygular',
       'oyun-saglikli-aliskanliklar',
       'oyun-geri-donusum',
+      'oyun-meslekler',
+      'oyun-vucudumuz',
     ]);
     final all = hubConfig.allGames.map((g) => g.gameId).toList();
     expect(all.length, ids.length + 0);

@@ -8,6 +8,7 @@ import 'package:oyun_cocuk_labirenti_ve_yapbozu/oyun_cocuk_labirenti_ve_yapbozu.
 import 'package:oyun_cocuk_piyanosu/oyun_cocuk_piyanosu.dart';
 import 'package:oyun_cocuklar_icin_blok_kodlama/oyun_cocuklar_icin_blok_kodlama.dart';
 import 'package:oyun_dikkat_gelistirme/oyun_dikkat_gelistirme.dart';
+import 'package:oyun_dinozorlar/oyun_dinozorlar.dart';
 import 'package:oyun_duygular/oyun_duygular.dart';
 import 'package:oyun_geometri_sekilleri/oyun_geometri_sekilleri.dart';
 import 'package:oyun_geri_donusum/oyun_geri_donusum.dart';
@@ -18,7 +19,9 @@ import 'package:oyun_hece_okuma/oyun_hece_okuma.dart';
 import 'package:oyun_ingilizce_kelime_kartlari/oyun_ingilizce_kelime_kartlari.dart';
 import 'package:oyun_kesirler/oyun_kesirler.dart';
 import 'package:oyun_matematik_yarisi/oyun_matematik_yarisi.dart';
+import 'package:oyun_meslekler/oyun_meslekler.dart';
 import 'package:oyun_mevsimler_ve_hava/oyun_mevsimler_ve_hava.dart';
+import 'package:oyun_meyve_sebze/oyun_meyve_sebze.dart';
 import 'package:oyun_notalarla_tanisma/oyun_notalarla_tanisma.dart';
 import 'package:oyun_para_sayma/oyun_para_sayma.dart';
 import 'package:oyun_saat_ogrenme/oyun_saat_ogrenme.dart';
@@ -30,6 +33,7 @@ import 'package:oyun_sekil_ve_renk_esleme/oyun_sekil_ve_renk_esleme.dart';
 import 'package:oyun_toplama_cikarma/oyun_toplama_cikarma.dart';
 import 'package:oyun_trafik_kurallari/oyun_trafik_kurallari.dart';
 import 'package:oyun_turkiye_haritasi_yapbozu/oyun_turkiye_haritasi_yapbozu.dart';
+import 'package:oyun_vucudumuz/oyun_vucudumuz.dart';
 import 'package:oyun_zit_kavramlar/oyun_zit_kavramlar.dart';
 import 'package:studio_core/app/approved_hub.dart';
 import 'package:studio_core/app/hub.dart';
@@ -138,6 +142,8 @@ final hubConfig = HubConfig(
     baskentlerConfig,
     turkiyeHaritasiConfig,
     trafikKurallariConfig,
+    dinozorlarConfig,
+    meyveSebzeConfig,
     dikkatConfig,
     labirentYapbozConfig,
     blokKodlamaConfig,
@@ -146,6 +152,8 @@ final hubConfig = HubConfig(
     duygularConfig,
     saglikliConfig,
     geriDonusumConfig,
+    mesleklerConfig,
+    vucudumuzConfig,
   ],
   starters: ['oyun-alfabe-ogrenme', 'oyun-boyama-kitabi', 'oyun-sayi-ogrenme'],
   sections: [
@@ -296,7 +304,7 @@ final hubConfig = HubConfig(
           'Khám phá thế giới',
           'Tuklasin ang mundo',
         ],
-        ids: ['oyun-hayvanlar-ve-sesleri', 'oyun-mevsimler-ve-hava', 'oyun-gunes-sistemi', 'oyun-bayraklar-bilgi-oyunu', 'oyun-baskentler-ve-harita', 'oyun-turkiye-haritasi-yapbozu', 'oyun-trafik-kurallari']),
+        ids: ['oyun-hayvanlar-ve-sesleri', 'oyun-mevsimler-ve-hava', 'oyun-gunes-sistemi', 'oyun-bayraklar-bilgi-oyunu', 'oyun-baskentler-ve-harita', 'oyun-turkiye-haritasi-yapbozu', 'oyun-trafik-kurallari', 'oyun-dinozorlar', 'oyun-meyve-sebze']),
     HubSection(
         title: [
           'Düşün ve bul',
@@ -370,7 +378,7 @@ final hubConfig = HubConfig(
           'Em và thế giới quanh em',
           'Ako at ang aking mundo',
         ],
-        ids: ['oyun-duygular', 'oyun-saglikli-aliskanliklar', 'oyun-geri-donusum']),
+        ids: ['oyun-duygular', 'oyun-saglikli-aliskanliklar', 'oyun-geri-donusum', 'oyun-meslekler', 'oyun-vucudumuz']),
   ],
 );
 

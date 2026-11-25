@@ -143,6 +143,22 @@ dependencies:
     git:
       url: https://github.com/taktemurr-ops/oyun-geri-donusum
       ref: 5d98d355d9bfabf7bd0ae06738d0bb6d22192b9a
+  oyun_meslekler:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-meslekler
+      ref: main
+  oyun_vucudumuz:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-vucudumuz
+      ref: main
+  oyun_dinozorlar:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-dinozorlar
+      ref: main
+  oyun_meyve_sebze:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-meyve-sebze
+      ref: main
   flutter_localizations:
     sdk: flutter
   flutter_riverpod: ^2.6.1

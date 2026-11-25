@@ -1,6 +1,6 @@
 # Eğitici Çocuk Oyunları · Kids Learning Games (merkez-egitici-ve-cocuk)
 
-Eğitici ve Çocuk ailesinin **merkez uygulaması**: 32 öğretici oyunu tek mağaza uygulamasında toplar. Her oyun kendi deposundadır; ortak motor [egitici-motoru](https://github.com/taktemurr-ops/egitici-motoru), ortak çekirdek [studio-core](https://github.com/taktemurr-ops/studio-core).
+Eğitici ve Çocuk ailesinin **merkez uygulaması**: 36 öğretici oyunu tek mağaza uygulamasında toplar. Her oyun kendi deposundadır; ortak motor [egitici-motoru](https://github.com/taktemurr-ops/egitici-motoru), ortak çekirdek [studio-core](https://github.com/taktemurr-ops/studio-core).
 
 Çocuklar için: bütün oyunlar `kidsMode` ile çalışır (reklam kimliği yok, ölçüm yok, satın alma ve ayarlar ebeveyn kapısında). Çıkartma albümü, ebeveyn raporu, uyarlanabilir zorluk, günlük süre sınırı ve uyku saati motorun çocuk çerçevesindedir; veriler yalnızca cihazda kalır.
 
@@ -32,6 +32,8 @@ Veri kaynakları: ülke adları CLDR (Babel), dünya haritası Natural Earth 1:1
 | Başkentler ve Harita | [oyun-baskentler-ve-harita](https://github.com/taktemurr-ops/oyun-baskentler-ve-harita) |
 | Türkiye Haritası Yapbozu | [oyun-turkiye-haritasi-yapbozu](https://github.com/taktemurr-ops/oyun-turkiye-haritasi-yapbozu) |
 | Trafik Kuralları | [oyun-trafik-kurallari](https://github.com/taktemurr-ops/oyun-trafik-kurallari) |
+| Dinozorlar | [oyun-dinozorlar](https://github.com/taktemurr-ops/oyun-dinozorlar) |
+| Meyve ve Sebzeler | [oyun-meyve-sebze](https://github.com/taktemurr-ops/oyun-meyve-sebze) |
 | Dikkat Geliştirme | [oyun-dikkat-gelistirme](https://github.com/taktemurr-ops/oyun-dikkat-gelistirme) |
 | Labirent ve Yapboz | [oyun-cocuk-labirenti-ve-yapbozu](https://github.com/taktemurr-ops/oyun-cocuk-labirenti-ve-yapbozu) |
 | Blok Kodlama | [oyun-cocuklar-icin-blok-kodlama](https://github.com/taktemurr-ops/oyun-cocuklar-icin-blok-kodlama) |
@@ -40,5 +42,7 @@ Veri kaynakları: ülke adları CLDR (Babel), dünya haritası Natural Earth 1:1
 | Duygular | [oyun-duygular](https://github.com/taktemurr-ops/oyun-duygular) |
 | Sağlıklı Alışkanlıklar | [oyun-saglikli-aliskanliklar](https://github.com/taktemurr-ops/oyun-saglikli-aliskanliklar) |
 | Geri Dönüşüm | [oyun-geri-donusum](https://github.com/taktemurr-ops/oyun-geri-donusum) |
+| Meslekler | [oyun-meslekler](https://github.com/taktemurr-ops/oyun-meslekler) |
+| Vücudumuz | [oyun-vucudumuz](https://github.com/taktemurr-ops/oyun-vucudumuz) |
 
 Test APK: https://github.com/taktemurr-ops/merkez-egitici-ve-cocuk/releases/download/test/merkez-egitici-ve-cocuk.apk
