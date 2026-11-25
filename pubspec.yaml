@@ -13,136 +13,136 @@ dependencies:
   studio_core:
     git:
       url: https://github.com/taktemurr-ops/studio-core
-      ref: 782e05b0d67b349f0af0cfe9e39b2e2a81228d20
+      ref: 14dac3f9192e77fda961b85d5bc33d2effb12f4d
   # Merkezdeki oyunlar (her biri kendi deposunda)
   oyun_alfabe_ogrenme:
     git:
       url: https://github.com/taktemurr-ops/oyun-alfabe-ogrenme
-      ref: 7e9cb0d632afc55be3b14aa6c9026fa98113321d
+      ref: 6ffb5996d33950de9e7da71233cef702ae8e587c
   oyun_harf_izleme:
     git:
       url: https://github.com/taktemurr-ops/oyun-harf-izleme
-      ref: ec6ac5e7a1c76a686694e0fd13a4dc6ece6bd04a
+      ref: 4a15207ff1cbd65d4d82b5ac49dac1949d6609be
   oyun_hece_okuma:
     git:
       url: https://github.com/taktemurr-ops/oyun-hece-okuma
-      ref: 29049cb6d1123e662f06924565a42999e73e68c6
+      ref: c7eccba00068ac8ad0e3d6b6e4d01b98082697e4
   oyun_ingilizce_kelime_kartlari:
     git:
       url: https://github.com/taktemurr-ops/oyun-ingilizce-kelime-kartlari
-      ref: e760f0579b615a7d959d7b1e29bf5773e9c17c0d
+      ref: 43dae21601ccc75b5cfd58f38a03ae4ca08fbccd
   oyun_sayi_ogrenme:
     git:
       url: https://github.com/taktemurr-ops/oyun-sayi-ogrenme
-      ref: 9d893f33764c971bc7919210fd6b00c5a7918d67
+      ref: 4bc5b02e669f2c1a8913af1720448d344e626620
   oyun_toplama_cikarma:
     git:
       url: https://github.com/taktemurr-ops/oyun-toplama-cikarma
-      ref: b2a99ac030bb7c451872218c7580e4ebc205b3df
+      ref: c8cc52b2526949a694dc88486432be2e2e8af7ea
   oyun_carpim_tablosu_oyunu:
     git:
       url: https://github.com/taktemurr-ops/oyun-carpim-tablosu-oyunu
-      ref: 12d1f8de0e484a7e8e9c1f7346fa32986b97c7a1
+      ref: d964069357f45f6224309196ca4f1c67a27d92d2
   oyun_matematik_yarisi:
     git:
       url: https://github.com/taktemurr-ops/oyun-matematik-yarisi
-      ref: d606b344af2ceedc54a0115a25035a18584bbad2
+      ref: 20e027bc7bd800fc1ef01c59c70a8dcb0310efd0
   oyun_kesirler:
     git:
       url: https://github.com/taktemurr-ops/oyun-kesirler
-      ref: 94d1465f013e192ec0f2ddb3562d2ca5fbd47bdd
+      ref: 32a72f866ec268f5f531171c1bc7c99359405412
   oyun_para_sayma:
     git:
       url: https://github.com/taktemurr-ops/oyun-para-sayma
-      ref: 3fae4be8eba691897cb062c22c73bcf6de859da8
+      ref: 34144fd0c4fa3cc18b0af602f1107e710a8e462e
   oyun_saat_ogrenme:
     git:
       url: https://github.com/taktemurr-ops/oyun-saat-ogrenme
-      ref: 4c8e51c2b08b132485ad394689d853727368e31b
+      ref: 5b529aec56755005179c771c1a2b228f7cff355f
   oyun_sekil_ve_renk_esleme:
     git:
       url: https://github.com/taktemurr-ops/oyun-sekil-ve-renk-esleme
-      ref: 6987102763e05ec5e0bba4367e3eda06ca1f3aef
+      ref: b7f1b807308aa1bd378c26d4a5d4eab15fd712d7
   oyun_geometri_sekilleri:
     git:
       url: https://github.com/taktemurr-ops/oyun-geometri-sekilleri
-      ref: 2e6ae51f67eb101d886a769ace1c35ec1357ddbd
+      ref: c50b3c791ac004e894688d59e2c5b3b812b86f0c
   oyun_boyama_kitabi:
     git:
       url: https://github.com/taktemurr-ops/oyun-boyama-kitabi
-      ref: 16ce4ed9d7badcd1eb43a62bbe953d9aa604c2da
+      ref: 1d6220d00a189ff448afa861263f68e1cbb414c6
   oyun_sayiyla_boyama:
     git:
       url: https://github.com/taktemurr-ops/oyun-sayiyla-boyama
-      ref: 381656bf520b0c16cc298bec02a49f355578679b
+      ref: adb7bae1a744a8e9299a576f839fc4a8d55b52b4
   oyun_cocuk_piyanosu:
     git:
       url: https://github.com/taktemurr-ops/oyun-cocuk-piyanosu
-      ref: 72690b2132faf64e824cf28b0af2339c3d040649
+      ref: ecaa09cd009204437c28600a74e8e470326411ae
   oyun_notalarla_tanisma:
     git:
       url: https://github.com/taktemurr-ops/oyun-notalarla-tanisma
-      ref: f64aec00b4cb9b0be34c794e53bf32d0997ca7fc
+      ref: 4f45f1c39a657250f4a3605e9bff3f7b872a7f66
   oyun_hayvanlar_ve_sesleri:
     git:
       url: https://github.com/taktemurr-ops/oyun-hayvanlar-ve-sesleri
-      ref: 323935ac4271b6cdd084d28c185a0dab108c6b1e
+      ref: 1cabd48879978f126cbef1ec221f5f4daecc309e
   oyun_mevsimler_ve_hava:
     git:
       url: https://github.com/taktemurr-ops/oyun-mevsimler-ve-hava
-      ref: c4184bbd2c77bfaa039b01a781c3f86cb5c2eeb9
+      ref: eb1459ca7645fd48d95d275855e0f4614a0095f1
   oyun_gunes_sistemi:
     git:
       url: https://github.com/taktemurr-ops/oyun-gunes-sistemi
-      ref: 18f028ccb9862ec1323d744f619f613a62b1dabf
+      ref: d7915c47b3ae19057a9295823f460e79a587da56
   oyun_bayraklar_bilgi_oyunu:
     git:
       url: https://github.com/taktemurr-ops/oyun-bayraklar-bilgi-oyunu
-      ref: d1f0d47be79c3b640d98a40286cf18731c8d1c59
+      ref: 359bb8009117077285d1eeb43742150207013672
   oyun_baskentler_ve_harita:
     git:
       url: https://github.com/taktemurr-ops/oyun-baskentler-ve-harita
-      ref: 11c0017fbe3b19255350952a63b48d078b07fe94
+      ref: 037d8af962f5411483cd7b44f20cb0ae5d49fb03
   oyun_turkiye_haritasi_yapbozu:
     git:
       url: https://github.com/taktemurr-ops/oyun-turkiye-haritasi-yapbozu
-      ref: 75564d551182725cffb4bfa325149e5c38e85a93
+      ref: 8663b683ed527ea643055bceebc5cc51e3a72179
   oyun_trafik_kurallari:
     git:
       url: https://github.com/taktemurr-ops/oyun-trafik-kurallari
-      ref: 0554ea5965e37ba745dd0d75f598ff3a1ddea1fd
+      ref: 866e11e9fb98142fab3b3e186b761ddeef9537af
   oyun_dikkat_gelistirme:
     git:
       url: https://github.com/taktemurr-ops/oyun-dikkat-gelistirme
-      ref: 41b0fb6af10ac19db182b547fb0e422a7360d5d6
+      ref: c87ecc0f36cc50d3e35e5c6b2816eb795236f575
   oyun_cocuk_labirenti_ve_yapbozu:
     git:
       url: https://github.com/taktemurr-ops/oyun-cocuk-labirenti-ve-yapbozu
-      ref: c78a9bc555fff558aac1dcec6b441039da072d0f
+      ref: 0fe6ae09bb7dd637edd446c7f4aa01f08894c005
   oyun_cocuklar_icin_blok_kodlama:
     git:
       url: https://github.com/taktemurr-ops/oyun-cocuklar-icin-blok-kodlama
-      ref: 146ddd6a986bb9bca69a29357c791d17419862b9
+      ref: 6ec08f9689ceff2d8c0b1d720b1262c49dac5d91
   oyun_zit_kavramlar:
     git:
       url: https://github.com/taktemurr-ops/oyun-zit-kavramlar
-      ref: e3d4438903b73b7898ed652633b5430b6e6c765f
+      ref: 4a5ef9e9eb45ff9e76433de43925bf308ebe1355
   oyun_sag_sol_yonler:
     git:
       url: https://github.com/taktemurr-ops/oyun-sag-sol-yonler
-      ref: 531d703e77abdfb8f86932af11bb1c094542e5d8
+      ref: 9d733be2db63b1b919ce95101d94de40d210a9f4
   oyun_duygular:
     git:
       url: https://github.com/taktemurr-ops/oyun-duygular
-      ref: 55457ebdfd8e7262f42fef96d23aa86843d64d10
+      ref: dba1a82eba661de7f3a2d5a3ac2c9efc5120acbb
   oyun_saglikli_aliskanliklar:
     git:
       url: https://github.com/taktemurr-ops/oyun-saglikli-aliskanliklar
-      ref: 6bae665262ce94d23ee38bd4ebd29feef99db8ad
+      ref: 6d238a689d9534047c7b36981b9dca5493453915
   oyun_geri_donusum:
     git:
       url: https://github.com/taktemurr-ops/oyun-geri-donusum
-      ref: cfd872fd17150b1a244274f9ac227337712e5a35
+      ref: 5d98d355d9bfabf7bd0ae06738d0bb6d22192b9a
   flutter_localizations:
     sdk: flutter
   flutter_riverpod: ^2.6.1
@@ -156,11 +156,11 @@ dependency_overrides:
   studio_core:
     git:
       url: https://github.com/taktemurr-ops/studio-core
-      ref: 782e05b0d67b349f0af0cfe9e39b2e2a81228d20
+      ref: 14dac3f9192e77fda961b85d5bc33d2effb12f4d
   egitici_motoru:
     git:
       url: https://github.com/taktemurr-ops/egitici-motoru
-      ref: 21df954245a68466f17b97f95b42a139a834a807
+      ref: a2b34287d78e85315cf5ae2a3875c1075673d38b
 
 dev_dependencies:
   flutter_test:
