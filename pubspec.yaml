@@ -146,19 +146,19 @@ dependencies:
   oyun_meslekler:
     git:
       url: https://github.com/taktemurr-ops/oyun-meslekler
-      ref: main
+      ref: 7a12c5a62b1c70824289b0e9be9a707b6b3b5e74
   oyun_vucudumuz:
     git:
       url: https://github.com/taktemurr-ops/oyun-vucudumuz
-      ref: main
+      ref: 57683c8334cfbb0849a2164e57978f7e538734db
   oyun_dinozorlar:
     git:
       url: https://github.com/taktemurr-ops/oyun-dinozorlar
-      ref: main
+      ref: 07bb66ba6a83bd034160f894b34c5d9826b4f7a5
   oyun_meyve_sebze:
     git:
       url: https://github.com/taktemurr-ops/oyun-meyve-sebze
-      ref: main
+      ref: a301bc9a906d3182f5794b1caf268e20d7b7d485
   flutter_localizations:
     sdk: flutter
   flutter_riverpod: ^2.6.1
@@ -176,7 +176,7 @@ dependency_overrides:
   egitici_motoru:
     git:
       url: https://github.com/taktemurr-ops/egitici-motoru
-      ref: a2b34287d78e85315cf5ae2a3875c1075673d38b
+      ref: d4028b848b07623cf3c779b67999e4280a193e48
 
 dev_dependencies:
   flutter_test:
