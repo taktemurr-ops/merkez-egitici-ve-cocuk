@@ -31,7 +31,10 @@ import 'package:oyun_toplama_cikarma/oyun_toplama_cikarma.dart';
 import 'package:oyun_trafik_kurallari/oyun_trafik_kurallari.dart';
 import 'package:oyun_turkiye_haritasi_yapbozu/oyun_turkiye_haritasi_yapbozu.dart';
 import 'package:oyun_zit_kavramlar/oyun_zit_kavramlar.dart';
+import 'package:studio_core/app/approved_hub.dart';
 import 'package:studio_core/app/hub.dart';
+
+import 'approved_style.dart';
 
 /// Eğitici ve Çocuk: harfler, sayılar, sanat, müzik ve dünyayı tanıma
 /// oyunlarını tek çocuk uygulamasında toplar. Bütün oyunlar kidsMode'dadır
@@ -371,4 +374,4 @@ final hubConfig = HubConfig(
   ],
 );
 
-void main() => bootstrapHub(hubConfig);
+void main() => bootstrapApprovedHub(hubConfig, approvedStyle);
