@@ -1,0 +1,1 @@
+alfabe,izleme,hece,okuma,ingilizce,kelime,kartları,toplama,çıkarma,çarpım,tablosu,matematik,yarışı
