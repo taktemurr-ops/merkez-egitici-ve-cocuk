@@ -13,7 +13,7 @@ dependencies:
   studio_core:
     git:
       url: https://github.com/taktemurr-ops/studio-core
-      ref: 199f5120f94f2c2311d885f7bcd1876de93935de
+      ref: 7e2e219a0cb2b9dc1d1b3e8f03cace0347001b10
   # Merkezdeki oyunlar (her biri kendi deposunda)
   oyun_alfabe_ogrenme:
     git:
@@ -192,7 +192,7 @@ dependency_overrides:
   studio_core:
     git:
       url: https://github.com/taktemurr-ops/studio-core
-      ref: 199f5120f94f2c2311d885f7bcd1876de93935de
+      ref: 7e2e219a0cb2b9dc1d1b3e8f03cace0347001b10
   egitici_motoru:
     git:
       url: https://github.com/taktemurr-ops/egitici-motoru
