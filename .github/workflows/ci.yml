@@ -136,8 +136,8 @@ jobs:
           for apk in build/app/outputs/flutter-apk/app-arm64-v8a-release.apk build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk; do
             echo "== $apk izinleri"
             "$AAPT2" dump permissions "$apk" | tee "$RUNNER_TEMP/perms.txt"
-            if grep -q "com.google.android.gms.permission.AD_ID" "$RUNNER_TEMP/perms.txt"; then
-              echo "::error::$apk reklam kimliği iznini (AD_ID) içeriyor"; fail=1
+            if grep -E -q "com.google.android.gms.permission.AD_ID|ACCESS_ADSERVICES_(AD_ID|TOPICS|ATTRIBUTION)" "$RUNNER_TEMP/perms.txt"; then
+              echo "::error::$apk reklam kimliği iznini (AD_ID / AdServices) içeriyor"; fail=1
             fi
             "$AAPT2" dump xmltree --file AndroidManifest.xml "$apk" > "$RUNNER_TEMP/man.txt"
             for k in google_analytics_adid_collection_enabled firebase_analytics_collection_deactivated firebase_analytics_collection_enabled; do
@@ -148,7 +148,7 @@ jobs:
           M=$(find build/app/intermediates -path '*release*' -name AndroidManifest.xml \( -path '*merged_manifest*' -o -path '*bundle_manifest*' \) | head -5)
           for f in $M; do
             echo "== $f"
-            if grep -q 'com.google.android.gms.permission.AD_ID' "$f"; then echo "::error::$f AD_ID içeriyor"; fail=1; fi
+            if grep -E -q 'com.google.android.gms.permission.AD_ID|ACCESS_ADSERVICES_(AD_ID|TOPICS|ATTRIBUTION)' "$f"; then echo "::error::$f AD_ID/AdServices içeriyor"; fail=1; fi
           done
           [ -n "$M" ] || echo "::warning::birleşik manifest dosyası bulunamadı (APK denetimi yeterli)"
           exit $fail

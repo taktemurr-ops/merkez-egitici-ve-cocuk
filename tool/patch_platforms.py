@@ -99,12 +99,18 @@ def android():
         # Reklamlar child-directed (AgeRestrictedTreatment.child, G) kalır.
         if "xmlns:tools=" not in s:
             s = s.replace("<manifest", '<manifest xmlns:tools="http://schemas.android.com/tools"', 1)
-        if "com.google.android.gms.permission.AD_ID" not in s:
-            s = s.replace(
-                "<application",
-                '<uses-permission android:name="com.google.android.gms.permission.AD_ID" tools:node="remove"/>\n    <application',
-                1,
-            )
+        # Privacy Sandbox reklam API'leri (AdServices AD_ID, Topics, Attribution)
+        # da çocuk uygulamasında kapalı.
+        for perm in ("com.google.android.gms.permission.AD_ID",
+                     "android.permission.ACCESS_ADSERVICES_AD_ID",
+                     "android.permission.ACCESS_ADSERVICES_TOPICS",
+                     "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"):
+            if 'android:name="%s"' % perm not in s:
+                s = s.replace(
+                    "<application",
+                    '<uses-permission android:name="%s" tools:node="remove"/>\n    <application' % perm,
+                    1,
+                )
         write(man, s)
     values_dir = "android/app/src/main/res/values"
     if os.path.isdir("android/app/src/main/res"):

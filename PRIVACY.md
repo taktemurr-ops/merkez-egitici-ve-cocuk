@@ -8,7 +8,7 @@ This app is designed for children (following Google Play "Designed for Families"
 ## Türkçe
 - Oyunlar internet olmadan oynanabilir. İlerleme, çıkartmalar, ebeveyn raporu ve süre ayarları yalnızca **cihazda** saklanır; hiçbir yere gönderilmez.
 - Hesap, ad, e-posta, doğum tarihi, konum, kişi listesi, fotoğraf, ses veya kamera **istemeyiz ve toplamayız**.
-- **Reklam kimliği kullanılmaz:** Android'de reklam kimliği izni (`AD_ID`) uygulamadan çıkarılmıştır, iOS'ta izleme izni (ATT) istenmez ve IDFA okunmaz. Kullanım ölçümü (Firebase Analytics) kalıcı olarak devre dışıdır; çökme raporu kapalıdır.
+- **Reklam kimliği kullanılmaz:** Android'de reklam kimliği izni (`AD_ID`) ve Privacy Sandbox reklam izinleri (AdServices kimliği, Topics, Attribution) uygulamadan çıkarılmıştır, iOS'ta izleme izni (ATT) istenmez ve IDFA okunmaz. Kullanım ölçümü (Firebase Analytics) kalıcı olarak devre dışıdır; çökme raporu kapalıdır.
 - Reklam gösterilirse yalnızca çocuklara uygun (G dereceli), kişiselleştirilmemiş reklamlar istenir: Google AdMob'a her istekte "çocuklara yönelik" (child-directed) işareti gönderilir. Reklamın gösterilebilmesi ve dolandırıcılığın önlenmesi için AdMob, cihazın IP adresinden yaklaşık konumu, uygulama kümesi kimliğini (app set ID) ve temel cihaz bilgilerini işler; bunlar kişiselleştirme veya profil oluşturma için kullanılmaz.
 - Satın almalar ve ayarlar bir **ebeveyn kapısının** (yetişkin sorusu) arkasındadır. Ödemeleri Google Play / App Store işler; ödeme bilgilerini görmeyiz.
 - Uygulamada sohbet, çevrimiçi oyun, skor tablosu veya sosyal paylaşım yoktur. Tek dış bağlantı (bu gizlilik politikası) ebeveyn kapısının arkasındadır; mağaza bağlantısı yoktur.
@@ -18,7 +18,7 @@ This app is designed for children (following Google Play "Designed for Families"
 ## English
 - Games work offline. Progress, stickers, the parent report and time settings are stored **only on the device** and never sent anywhere.
 - We do **not** ask for or collect accounts, names, e-mail, birth dates, location, contacts, photos, microphone or camera data.
-- **No advertising ID is used:** on Android the advertising ID permission (`AD_ID`) is removed from the app; on iOS no tracking permission (ATT) is requested and the IDFA is not read. Usage measurement (Firebase Analytics) is permanently deactivated; crash reporting is off.
+- **No advertising ID is used:** on Android the advertising ID permission (`AD_ID`) and the Privacy Sandbox ad permissions (AdServices ID, Topics, Attribution) are removed from the app; on iOS no tracking permission (ATT) is requested and the IDFA is not read. Usage measurement (Firebase Analytics) is permanently deactivated; crash reporting is off.
 - If ads are shown, only child-appropriate (rated G), non-personalized ads are requested: every request to Google AdMob is tagged as child-directed. To serve ads and prevent fraud, AdMob processes the approximate location derived from the IP address, the app set ID and basic device information; these are not used for personalization or profiling.
 - Purchases and settings sit behind a **parental gate** (a grown-up question). Payments are handled by Google Play / App Store; we never see payment details.
 - There is no chat, online play, leaderboard or social sharing in the app. The only external link (this privacy policy) is behind a parental gate; there are no store links.
