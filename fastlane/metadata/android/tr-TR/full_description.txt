@@ -1,11 +1,11 @@
-Eğitici Çocuk Oyunları, 36 öğretici oyunu tek uygulamada toplar: alfabe, harf izleme ve hece okuma; sayılar, saat, toplama, çarpım, kesirler ve para; şekiller, boyama ve piyano; hayvanlar, mevsimler, gezegenler, bayraklar, Türkiye haritası ve trafik kuralları; dikkat, labirent ve blok kodlama. Talimatlar resimlerle verilir, okumayı bilmeyen küçükler de oynayabilir.
+Eğitici Çocuk Oyunları, 41 öğretici oyunu tek uygulamada toplar: alfabe, harf izleme ve hece okuma; sayılar, saat, toplama, çarpım, kesirler ve para; şekiller, boyama ve piyano; hayvanlar, mevsimler, gezegenler, bayraklar, Türkiye haritası ve trafik kuralları; dikkat, labirent ve blok kodlama. Talimatlar resimlerle verilir, okumayı bilmeyen küçükler de oynayabilir.
 
-• Harfler ve okuma: Alfabe Öğrenme, Harf İzleme, Hece Okuma, İngilizce Kelime Kartları
+• Harfler ve okuma: Alfabe Öğrenme, Harf İzleme, Hece Okuma, İngilizce Kelime Kartları, Dünya Alfabeleri, Masal Kitaplığı
 • Sayılar ve matematik: Sayı Öğrenme, Toplama ve Çıkarma, Çarpım Tablosu, Matematik Yarışı, Kesirler, Para Sayma, Saat Öğrenme
 • Şekil, sanat ve müzik: Şekil ve Renk, Geometri Şekilleri, Boyama Kitabı, Sayıyla Boyama, Çocuk Piyanosu, Notalarla Tanışma
 • Dünyayı keşfet: Hayvanlar ve Sesleri, Mevsimler ve Hava, Güneş Sistemi, Bayraklar, Başkentler ve Harita, Türkiye Haritası Yapbozu, Trafik Kuralları, Dinozorlar, Meyve ve Sebzeler
 • Düşün ve bul: Dikkat Geliştirme, Labirent ve Yapboz, Blok Kodlama, Zıt Kavramlar, Sağ-Sol ve Yönler
-• Ben ve çevrem: Duygular, Sağlıklı Alışkanlıklar, Geri Dönüşüm, Meslekler, Vücudumuz
+• Ben ve çevrem: Duygular, Sağlıklı Alışkanlıklar, Geri Dönüşüm, Meslekler, Vücudumuz, Oyuncak Ev Dünyası, Minik Veteriner, Araba Yıkama ve Tamir
 
 Öne çıkanlar
 • Zorluk çocuğa uyar: zorlanınca seçenekler azalır, başarınca bölümler ilerler.

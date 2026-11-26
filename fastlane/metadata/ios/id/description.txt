@@ -1,11 +1,11 @@
 Game Edukasi Anak menghadirkan 32 game edukasi: alfabet, menebalkan huruf, suku kata; angka, jam, penjumlahan, perkalian, pecahan, uang; bentuk, mewarnai, piano; hewan, musim, planet, bendera, puzzle peta, keselamatan lalu lintas; fokus, labirin, koding blok. Petunjuk berupa gambar, jadi anak yang belum bisa membaca pun bisa bermain.
 
-• Huruf dan membaca: Belajar Alfabet, Menebalkan Huruf, Membaca Suku Kata, Kartu Kata Bahasa Inggris
+• Huruf dan membaca: Belajar Alfabet, Menebalkan Huruf, Membaca Suku Kata, Kartu Kata Bahasa Inggris, Aksara Dunia, Perpustakaan Dongeng
 • Angka dan matematika: Belajar Angka, Penjumlahan dan Pengurangan, Tabel Perkalian, Balap Hitung, Pecahan, Menghitung Uang, Belajar Jam
 • Bentuk, seni, dan musik: Bentuk dan Warna, Bangun Geometri, Buku Mewarnai, Mewarnai dengan Angka, Piano Anak, Belajar Not Balok
 • Jelajahi dunia: Hewan dan Suaranya, Musim dan Cuaca, Tata Surya, Bendera Dunia, Ibu Kota dan Peta, Puzzle Peta Turki, Keselamatan Lalu Lintas
 • Berpikir dan temukan: Cari yang Berbeda, Labirin dan Puzzle, Koding Blok, Lawan Kata, Kiri, Kanan, dan Di Mana
-• Aku dan duniaku: Perasaan, Kebiasaan Sehat, Daur Ulang
+• Aku dan duniaku: Perasaan, Kebiasaan Sehat, Daur Ulang, Dunia Rumah Mainan, Dokter Hewan Cilik, Cuci dan Bengkel Mobil
 
 Sorotan
 • Kesulitan menyesuaikan anak: pilihan berkurang saat sulit, langkah baru setelah berhasil.

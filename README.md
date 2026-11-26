@@ -1,6 +1,6 @@
 # Eğitici Çocuk Oyunları · Kids Learning Games (merkez-egitici-ve-cocuk)
 
-Eğitici ve Çocuk ailesinin **merkez uygulaması**: 36 öğretici oyunu tek mağaza uygulamasında toplar. Her oyun kendi deposundadır; ortak motor [egitici-motoru](https://github.com/taktemurr-ops/egitici-motoru), ortak çekirdek [studio-core](https://github.com/taktemurr-ops/studio-core).
+Eğitici ve Çocuk ailesinin **merkez uygulaması**: 41 öğretici oyunu tek mağaza uygulamasında toplar. Her oyun kendi deposundadır; ortak motor [egitici-motoru](https://github.com/taktemurr-ops/egitici-motoru), ortak çekirdek [studio-core](https://github.com/taktemurr-ops/studio-core).
 
 Çocuklar için: bütün oyunlar `kidsMode` ile çalışır (reklam kimliği yok, ölçüm yok, satın alma ve ayarlar ebeveyn kapısında). Çıkartma albümü, ebeveyn raporu, uyarlanabilir zorluk, günlük süre sınırı ve uyku saati motorun çocuk çerçevesindedir; veriler yalnızca cihazda kalır.
 
@@ -44,5 +44,12 @@ Veri kaynakları: ülke adları CLDR (Babel), dünya haritası Natural Earth 1:1
 | Geri Dönüşüm | [oyun-geri-donusum](https://github.com/taktemurr-ops/oyun-geri-donusum) |
 | Meslekler | [oyun-meslekler](https://github.com/taktemurr-ops/oyun-meslekler) |
 | Vücudumuz | [oyun-vucudumuz](https://github.com/taktemurr-ops/oyun-vucudumuz) |
+| Dünya Alfabeleri | [oyun-dunya-alfabeleri](https://github.com/taktemurr-ops/oyun-dunya-alfabeleri) |
+| Masal Kitaplığı | [oyun-masal-kitapligi](https://github.com/taktemurr-ops/oyun-masal-kitapligi) |
+| Oyuncak Ev Dünyası | [oyun-oyuncak-ev](https://github.com/taktemurr-ops/oyun-oyuncak-ev) |
+| Minik Veteriner | [oyun-minik-veteriner](https://github.com/taktemurr-ops/oyun-minik-veteriner) |
+| Araba Yıkama ve Tamir | [oyun-araba-tamir-cocuk](https://github.com/taktemurr-ops/oyun-araba-tamir-cocuk) |
+
+Masal Kitaplığı sesli okuması cihazın kendi sistem seslerini çevrimdışı kullanır (ağ gerektiren sesler seçilmez; web'de ve o dilde ses yoksa sözcükler vurgulanarak birlikte okunur).
 
 Test APK: https://github.com/taktemurr-ops/merkez-egitici-ve-cocuk/releases/download/test/merkez-egitici-ve-cocuk.apk

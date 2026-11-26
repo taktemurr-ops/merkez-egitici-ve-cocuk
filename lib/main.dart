@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:oyun_alfabe_ogrenme/oyun_alfabe_ogrenme.dart';
+import 'package:oyun_araba_tamir_cocuk/oyun_araba_tamir_cocuk.dart';
 import 'package:oyun_baskentler_ve_harita/oyun_baskentler_ve_harita.dart';
 import 'package:oyun_bayraklar_bilgi_oyunu/oyun_bayraklar_bilgi_oyunu.dart';
 import 'package:oyun_boyama_kitabi/oyun_boyama_kitabi.dart';
@@ -9,6 +10,7 @@ import 'package:oyun_cocuk_piyanosu/oyun_cocuk_piyanosu.dart';
 import 'package:oyun_cocuklar_icin_blok_kodlama/oyun_cocuklar_icin_blok_kodlama.dart';
 import 'package:oyun_dikkat_gelistirme/oyun_dikkat_gelistirme.dart';
 import 'package:oyun_dinozorlar/oyun_dinozorlar.dart';
+import 'package:oyun_dunya_alfabeleri/oyun_dunya_alfabeleri.dart';
 import 'package:oyun_duygular/oyun_duygular.dart';
 import 'package:oyun_geometri_sekilleri/oyun_geometri_sekilleri.dart';
 import 'package:oyun_geri_donusum/oyun_geri_donusum.dart';
@@ -18,11 +20,14 @@ import 'package:oyun_hayvanlar_ve_sesleri/oyun_hayvanlar_ve_sesleri.dart';
 import 'package:oyun_hece_okuma/oyun_hece_okuma.dart';
 import 'package:oyun_ingilizce_kelime_kartlari/oyun_ingilizce_kelime_kartlari.dart';
 import 'package:oyun_kesirler/oyun_kesirler.dart';
+import 'package:oyun_masal_kitapligi/oyun_masal_kitapligi.dart';
 import 'package:oyun_matematik_yarisi/oyun_matematik_yarisi.dart';
 import 'package:oyun_meslekler/oyun_meslekler.dart';
 import 'package:oyun_mevsimler_ve_hava/oyun_mevsimler_ve_hava.dart';
 import 'package:oyun_meyve_sebze/oyun_meyve_sebze.dart';
+import 'package:oyun_minik_veteriner/oyun_minik_veteriner.dart';
 import 'package:oyun_notalarla_tanisma/oyun_notalarla_tanisma.dart';
+import 'package:oyun_oyuncak_ev/oyun_oyuncak_ev.dart';
 import 'package:oyun_para_sayma/oyun_para_sayma.dart';
 import 'package:oyun_saat_ogrenme/oyun_saat_ogrenme.dart';
 import 'package:oyun_sag_sol_yonler/oyun_sag_sol_yonler.dart';
@@ -154,6 +159,11 @@ final hubConfig = HubConfig(
     geriDonusumConfig,
     mesleklerConfig,
     vucudumuzConfig,
+    dunyaAlfabeleriConfig,
+    masalKitapligiConfig,
+    oyuncakEvConfig,
+    minikVeterinerConfig,
+    arabaTamirCocukConfig,
   ],
   starters: ['oyun-alfabe-ogrenme', 'oyun-boyama-kitabi', 'oyun-sayi-ogrenme'],
   covers: const {
@@ -193,6 +203,11 @@ final hubConfig = HubConfig(
     'oyun-turkiye-haritasi-yapbozu': GameCover('trmapc'),
     'oyun-vucudumuz': GameCover('bodyc'),
     'oyun-zit-kavramlar': GameCover('oppc'),
+    'oyun-dunya-alfabeleri': GameCover('ek4scripts'),
+    'oyun-masal-kitapligi': GameCover('ek4tales'),
+    'oyun-oyuncak-ev': GameCover('ek4toyhouse'),
+    'oyun-minik-veteriner': GameCover('ek4vet'),
+    'oyun-araba-tamir-cocuk': GameCover('ek4carwash'),
   },
   defaultCover: const GameCover('abcc', v: 1),
   sections: [
@@ -232,7 +247,7 @@ final hubConfig = HubConfig(
           'Chữ và đọc',
           'Titik at pagbasa',
         ],
-        ids: ['oyun-alfabe-ogrenme', 'oyun-harf-izleme', 'oyun-hece-okuma', 'oyun-ingilizce-kelime-kartlari']),
+        ids: ['oyun-alfabe-ogrenme', 'oyun-harf-izleme', 'oyun-hece-okuma', 'oyun-ingilizce-kelime-kartlari', 'oyun-dunya-alfabeleri', 'oyun-masal-kitapligi']),
     HubSection(
         title: [
           'Sayılar ve matematik',
@@ -417,7 +432,7 @@ final hubConfig = HubConfig(
           'Em và thế giới quanh em',
           'Ako at ang aking mundo',
         ],
-        ids: ['oyun-duygular', 'oyun-saglikli-aliskanliklar', 'oyun-geri-donusum', 'oyun-meslekler', 'oyun-vucudumuz']),
+        ids: ['oyun-duygular', 'oyun-saglikli-aliskanliklar', 'oyun-geri-donusum', 'oyun-meslekler', 'oyun-vucudumuz', 'oyun-oyuncak-ev', 'oyun-minik-veteriner', 'oyun-araba-tamir-cocuk']),
   ],
 );
 

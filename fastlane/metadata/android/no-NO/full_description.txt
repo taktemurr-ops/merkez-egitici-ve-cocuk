@@ -1,11 +1,11 @@
-Læringsspill for Barn samler 36 læringsspill: alfabetet, tegne bokstaver og stavelser; tall, klokke, pluss, gangetabell, brøk og penger; figurer, fargelegging og piano; dyr, årstider, planeter, flagg, kartpuslespill og trafikksikkerhet; fokus, labyrinter og blokkprogrammering. Veiledning med bilder, også for dem som ikke leser ennå.
+Læringsspill for Barn samler 41 læringsspill: alfabetet, tegne bokstaver og stavelser; tall, klokke, pluss, gangetabell, brøk og penger; figurer, fargelegging og piano; dyr, årstider, planeter, flagg, kartpuslespill og trafikksikkerhet; fokus, labyrinter og blokkprogrammering. Veiledning med bilder, også for dem som ikke leser ennå.
 
-• Bokstaver og lesing: Lær Alfabetet, Tegn Bokstaver, Les Stavelser, Engelske Ordkort
+• Bokstaver og lesing: Lær Alfabetet, Tegn Bokstaver, Les Stavelser, Engelske Ordkort, Verdens Alfabeter, Fabelbiblioteket
 • Tall og matte: Lær Tall, Pluss og Minus, Gangetabellen, Regneløp, Brøk, Tell Penger, Lær Klokka
 • Former, kunst og musikk: Former og Farger, Geometriske Figurer, Fargeleggingsbok, Mal etter Tall, Barnepiano, Lær Noter
 • Utforsk verden: Dyr og Lyder, Årstider og Vær, Solsystemet, Verdens Flagg, Hovedsteder og Kart, Puslespill: Tyrkias Kart, Trafikksikkerhet, Dinosaurer, Frukt og Grønnsaker
 • Tenk og finn: Finn den Rare, Labyrinter og Puslespill, Blokkprogrammering, Motsetninger, Venstre, Høyre og Hvor
-• Meg og min verden: Følelser, Sunne Vaner, Kildesortering, Yrker, Kroppen Min
+• Meg og min verden: Følelser, Sunne Vaner, Kildesortering, Yrker, Kroppen Min, Dukkehusverdenen, Lille Dyrlege, Bilvask og Verksted
 
 Høydepunkter
 • Vanskeligheten tilpasser seg: færre valg når det er vanskelig, nye steg etter hver suksess.

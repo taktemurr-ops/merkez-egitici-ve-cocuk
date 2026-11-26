@@ -13,7 +13,7 @@ dependencies:
   studio_core:
     git:
       url: https://github.com/taktemurr-ops/studio-core
-      ref: 8eb30b12914d385b8e8560df8e23e01310fde0c3
+      ref: 199f5120f94f2c2311d885f7bcd1876de93935de
   # Merkezdeki oyunlar (her biri kendi deposunda)
   oyun_alfabe_ogrenme:
     git:
@@ -159,6 +159,26 @@ dependencies:
     git:
       url: https://github.com/taktemurr-ops/oyun-meyve-sebze
       ref: f3a4105da1b34f51996b1d5cdc4143efe7bbb3ec
+  oyun_dunya_alfabeleri:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-dunya-alfabeleri
+      ref: e17c61a11ee4dc2121ebfb266062910248b9a4d9
+  oyun_masal_kitapligi:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-masal-kitapligi
+      ref: 6110521d63b83a56184ad72de4e0b9663f61fcbf
+  oyun_oyuncak_ev:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-oyuncak-ev
+      ref: 27812542f8a0e6352621142850a3544bdddd37f1
+  oyun_minik_veteriner:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-minik-veteriner
+      ref: a154ef394406225772645ac0b1236dcfe2406ef4
+  oyun_araba_tamir_cocuk:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-araba-tamir-cocuk
+      ref: 29c4b33323872d034c912859902ef163501958a3
   flutter_localizations:
     sdk: flutter
   flutter_riverpod: ^2.6.1
@@ -172,11 +192,11 @@ dependency_overrides:
   studio_core:
     git:
       url: https://github.com/taktemurr-ops/studio-core
-      ref: 8eb30b12914d385b8e8560df8e23e01310fde0c3
+      ref: 199f5120f94f2c2311d885f7bcd1876de93935de
   egitici_motoru:
     git:
       url: https://github.com/taktemurr-ops/egitici-motoru
-      ref: 093a98d90fcca4e456df11a49b995e10ae085766
+      ref: 85570e2e476afb3919e0ec45231ee67faec34bd5
 
 dev_dependencies:
   flutter_test:

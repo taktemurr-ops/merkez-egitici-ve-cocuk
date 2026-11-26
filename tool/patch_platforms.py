@@ -62,6 +62,14 @@ def android():
         # Never lock orientation in the manifest; the app decides at runtime
         # (phones portrait, tablets/foldables every orientation).
         s = re.sub(r'\s+android:screenOrientation="[^"]*"', "", s)
+        # Android 11+: Masal Kitaplığı sesli okuması cihazın kendi (çevrimdışı)
+        # metin okuma motorunu görebilsin.
+        if "android.intent.action.TTS_SERVICE" not in s:
+            s = s.replace(
+                "<application",
+                '<queries>\n        <intent>\n            <action android:name="android.intent.action.TTS_SERVICE"/>\n        </intent>\n    </queries>\n    <application',
+                1,
+            )
         if "android.permission.INTERNET" not in s:
             s = s.replace("<application", '<uses-permission android:name="android.permission.INTERNET"/>\n    <application', 1)
         if "com.google.android.gms.ads.APPLICATION_ID" not in s:

@@ -41,6 +41,11 @@ void main() {
       'oyun-geri-donusum',
       'oyun-meslekler',
       'oyun-vucudumuz',
+      'oyun-dunya-alfabeleri',
+      'oyun-masal-kitapligi',
+      'oyun-oyuncak-ev',
+      'oyun-minik-veteriner',
+      'oyun-araba-tamir-cocuk',
     ]);
     final all = hubConfig.allGames.map((g) => g.gameId).toList();
     expect(all.length, ids.length + 0);

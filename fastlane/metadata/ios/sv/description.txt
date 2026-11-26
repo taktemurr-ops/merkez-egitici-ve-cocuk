@@ -1,11 +1,11 @@
 Lärospel för Barn samlar 32 lärospel: alfabetet, spåra bokstäver och stavelser; siffror, klockan, plus, gångertabeller, bråk och pengar; former, målning och piano; djur, årstider, planeter, flaggor, kartpussel och trafiksäkerhet; fokus, labyrinter och blockprogrammering. Instruktioner med bilder, även för den som inte läser än.
 
-• Bokstäver och läsning: Lär dig Alfabetet, Spåra Bokstäver, Läsa Stavelser, Engelska Ordkort
+• Bokstäver och läsning: Lär dig Alfabetet, Spåra Bokstäver, Läsa Stavelser, Engelska Ordkort, Världens Alfabet, Fabelbiblioteket
 • Siffror och matte: Lär dig Siffror, Plus och Minus, Multiplikationstabellen, Mattetävling, Bråk, Räkna Pengar, Lär dig Klockan
 • Former, konst och musik: Former och Färger, Geometriska Former, Målarbok, Måla med Siffror, Barnpiano, Lär dig Noter
 • Upptäck världen: Djur och Läten, Årstider och Väder, Solsystemet, Världens Flaggor, Huvudstäder och Kartor, Pussel: Turkiets Karta, Trafiksäkerhet
 • Tänk och hitta: Hitta den Udda, Labyrinter och Pussel, Blockprogrammering, Motsatser, Vänster, Höger och Var
-• Jag och min värld: Känslor, Sunda Vanor, Sopsortering
+• Jag och min värld: Känslor, Sunda Vanor, Sopsortering, Dockskåpsvärlden, Lilla Veterinären, Biltvätt och Verkstad
 
 Höjdpunkter
 • Svårigheten anpassas: färre val när det är svårt, nya steg efter varje framgång.
