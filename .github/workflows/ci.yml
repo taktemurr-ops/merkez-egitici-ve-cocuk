@@ -127,6 +127,32 @@ jobs:
           done
           ls -l build/app/outputs/flutter-apk/*.apk build/app/outputs/bundle/release/*.aab
 
+      - name: Play Aileler - birleşik manifest'te AD_ID izni yok, Analytics kapalı (aapt2)
+        run: |
+          set -e
+          AAPT2=$(ls -d "$ANDROID_HOME"/build-tools/*/aapt2 | sort -V | tail -1)
+          echo "aapt2: $AAPT2"
+          fail=0
+          for apk in build/app/outputs/flutter-apk/app-arm64-v8a-release.apk build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk; do
+            echo "== $apk izinleri"
+            "$AAPT2" dump permissions "$apk" | tee "$RUNNER_TEMP/perms.txt"
+            if grep -q "com.google.android.gms.permission.AD_ID" "$RUNNER_TEMP/perms.txt"; then
+              echo "::error::$apk reklam kimliği iznini (AD_ID) içeriyor"; fail=1
+            fi
+            "$AAPT2" dump xmltree --file AndroidManifest.xml "$apk" > "$RUNNER_TEMP/man.txt"
+            for k in google_analytics_adid_collection_enabled firebase_analytics_collection_deactivated firebase_analytics_collection_enabled; do
+              grep -q "\"$k\"" "$RUNNER_TEMP/man.txt" || { echo "::error::$apk: $k meta-data yok"; fail=1; }
+            done
+          done
+          # AAB (Play'e giden paket): bundletool yerine Gradle'ın birleşik manifest'i.
+          M=$(find build/app/intermediates -path '*release*' -name AndroidManifest.xml \( -path '*merged_manifest*' -o -path '*bundle_manifest*' \) | head -5)
+          for f in $M; do
+            echo "== $f"
+            if grep -q 'com.google.android.gms.permission.AD_ID' "$f"; then echo "::error::$f AD_ID içeriyor"; fail=1; fi
+          done
+          [ -n "$M" ] || echo "::warning::birleşik manifest dosyası bulunamadı (APK denetimi yeterli)"
+          exit $fail
+
       - name: Web build (also published on GitHub Pages for device testing)
         # PWA: CanvasKit yerel (CDN'siz), çevrimdışı service worker ve manifest.
         run: |

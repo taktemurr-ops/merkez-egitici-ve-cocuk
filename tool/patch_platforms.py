@@ -81,9 +81,30 @@ def android():
         # Firebase: ölçüm ve çökme raporu uygulama içinden (izinle) açılır;
         # reklam kimliği hiç toplanmaz.
         for k in ("firebase_analytics_collection_enabled", "google_analytics_adid_collection_enabled",
-                  "firebase_crashlytics_collection_enabled"):
+                  "firebase_crashlytics_collection_enabled",
+                  "google_analytics_default_allow_ad_personalization_signals"):
             if k not in s:
                 s = s.replace("</application>", '    <meta-data android:name="%s" android:value="false"/>\n    </application>' % k, 1)
+        # Çocuk merkezi (Play "Aileler için tasarlandı"): Firebase Analytics
+        # kalıcı olarak devre dışı (koddan da açılamaz).
+        if "firebase_analytics_collection_deactivated" not in s:
+            s = s.replace(
+                "</application>",
+                '    <meta-data android:name="firebase_analytics_collection_deactivated" android:value="true"/>\n    </application>',
+                1,
+            )
+        # Play Aileler politikası: yalnız çocuklara yönelik uygulama Android
+        # reklam kimliğini (AAID) iletmez. AdMob / play-services-ads-identifier
+        # kitaplıklarının eklediği AD_ID izni birleşik manifest'ten çıkarılır.
+        # Reklamlar child-directed (AgeRestrictedTreatment.child, G) kalır.
+        if "xmlns:tools=" not in s:
+            s = s.replace("<manifest", '<manifest xmlns:tools="http://schemas.android.com/tools"', 1)
+        if "com.google.android.gms.permission.AD_ID" not in s:
+            s = s.replace(
+                "<application",
+                '<uses-permission android:name="com.google.android.gms.permission.AD_ID" tools:node="remove"/>\n    <application',
+                1,
+            )
         write(man, s)
     values_dir = "android/app/src/main/res/values"
     if os.path.isdir("android/app/src/main/res"):
@@ -204,6 +225,13 @@ def ios():
         s = re.sub(r"\s*<key>NSAllowsArbitraryLoads</key>\s*<true/>", "", s)
         if "FIREBASE_ANALYTICS_COLLECTION_ENABLED" not in s:
             extra += "\t<key>FIREBASE_ANALYTICS_COLLECTION_ENABLED</key>\n\t<false/>\n"
+        # Çocuk merkezi: Analytics kalıcı kapalı, reklam kimliği/IDFV toplanmaz.
+        if "FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED" not in s:
+            extra += "\t<key>FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED</key>\n\t<true/>\n"
+        if "GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED" not in s:
+            extra += "\t<key>GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED</key>\n\t<false/>\n"
+        if "GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS" not in s:
+            extra += "\t<key>GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS</key>\n\t<false/>\n"
         if "FirebaseCrashlyticsCollectionEnabled" not in s:
             extra += "\t<key>FirebaseCrashlyticsCollectionEnabled</key>\n\t<false/>\n"
         if "ITSAppUsesNonExemptEncryption" not in s:
