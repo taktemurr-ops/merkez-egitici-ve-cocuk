@@ -44,6 +44,7 @@ import 'package:studio_core/app/approved_hub.dart';
 import 'package:studio_core/app/hub.dart';
 
 import 'approved_style.dart';
+import 'store_flavor.dart';
 
 /// Eğitici ve Çocuk: harfler, sayılar, sanat, müzik ve dünyayı tanıma
 /// oyunlarını tek çocuk uygulamasında toplar. Bütün oyunlar kidsMode'dadır
@@ -439,4 +440,7 @@ final hubConfig = HubConfig(
 /// Uygulama içi gizlilik politikası (Ayarlar → Gizlilik politikası). Mağaza kayıtlarında da aynı adres.
 const privacyUrl = 'https://github.com/taktemurr-ops/merkez-egitici-ve-cocuk/blob/main/PRIVACY.md';
 
-void main() => bootstrapApprovedHub(hubConfig, approvedStyle, privacyUrl: privacyUrl);
+void main() {
+  registerStoreFlavor();
+  bootstrapApprovedHub(hubConfig, approvedStyle, privacyUrl: privacyUrl);
+}
