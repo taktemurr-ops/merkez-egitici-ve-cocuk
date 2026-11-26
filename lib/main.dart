@@ -168,7 +168,7 @@ final hubConfig = HubConfig(
     'oyun-dikkat-gelistirme': GameCover('eyec'),
     'oyun-dinozorlar': GameCover('dinoc'),
     'oyun-duygular': GameCover('feelc'),
-    'oyun-geometri-sekilleri': GameCover('shapec', v: 1),
+    'oyun-geometri-sekilleri': GameCover('geosolidc'),
     'oyun-geri-donusum': GameCover('recyc'),
     'oyun-gunes-sistemi': GameCover('sunc'),
     'oyun-harf-izleme': GameCover('tracec'),
